@@ -1,0 +1,42 @@
+/* GENERICS */
+*{
+    margin: 0%;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+}
+
+/* header */
+header{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 50px;
+    background-color: black;
+    
+}
+
+/* utilities */
+
+.btn{
+    background-color: #4A4A4A;
+    padding: 5px 5px ;
+    border-radius: 5px;
+}
+
+ul{
+    display: inline;
+    margin: 0 10px;
+}
+
+li{
+  list-style-type: none;
+  display: inline;
+  
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    
+    
+}
