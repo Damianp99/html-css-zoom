@@ -21,7 +21,7 @@ header{
 /* utilities */
 
 body{
-    background-color:lightgrey;
+    background-color:black;
     height: 100vh;
 }
 
@@ -35,11 +35,27 @@ body{
     margin: 0 auto;
 }
 
+
+.name-position {
+    color: white;
+}
+
 .container img{
     margin-top:5px;
     margin-bottom:5px;
 }
 
+.user-name{
+    position: relative;
+}
+
+.name-position{
+    background-color: rgba(0, 0, 0, 0.4);
+    padding:5px 10px;
+    position: absolute;
+    bottom: 10px;
+    left: 0px;
+}
 
 
 .btn{
@@ -75,22 +91,23 @@ footer{
     height: 100px;
     display: flex;
     justify-content: space-between;
-   
-    
     width: 100%;
-    
+    position: fixed;
+    bottom: 0%;
 }
 
 .actions{
     display: flex;
-   
     align-items: center;
+    text-align: center;
+    
     
 }
 
 footer i{
     font-size: 30px;
-    margin: 0 10px;
+    margin: 10px 20px;
+    color: white;
     
 }
 
