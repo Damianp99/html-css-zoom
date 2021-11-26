@@ -110,12 +110,12 @@ footer i{
 
 
 .quit{
-    color: red;
     background-color: #4A4A4A;
     height: 100px;
 }
 
-.quit span{
+.quit span a{
+    color: red;
     line-height: 100px;
     padding: 0 10px;
 }
