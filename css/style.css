@@ -13,14 +13,16 @@ header{
     align-items: center;
     height: 50px;
     background-color: black;
-    position: fixed;
+    position: fixed; 
     width: 100%; 
+    z-index: 1;
 }
+
+
 
 /* content */
 body{
     background-color:black;
-    height: 100vh;
 }
 
 .container{
@@ -29,6 +31,9 @@ body{
     justify-content: space-evenly;
     width: 1500px;
     margin: 0 auto;
+    overflow-y: auto;
+    height: 100vh;
+    overflow-y: auto;
 }
 
 .user-name {
